@@ -13,19 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('home', [
-        "name" => "Ucok",
-        "email" => "ahmadtaufiq@gmail.com",
-    ]);
+    return view('home');
 });
 
-Route::get('/about', function () {
-    return view('about', [
-        "name" => "Ahmad Taufiq",
-        "email" => "ahmadtaufiq@students.unnes.ac.id",
-    ]);
-});
-
-Route::get('/blog', function () {
-    return view('posts');
-});
+Route::get('login', function () {
+    return view('login');
+})->name('login');
