@@ -21,7 +21,7 @@
 
     <section class="login-user">
         <div class="left">
-            <img src="{{ asset('images/ill_login_new.png') }}" alt="">
+            <img src="{{ asset('images/e-belajar.png') }}" alt="">
         </div>
         <div class="right">
             <img src="{{ asset('images/logo1.png') }}" class="logo" alt="">
@@ -32,7 +32,7 @@
                 Selamat Datang di e-siswa. Silahkan masukan email dan password
             </p>
             <p>
-                <a class="btn btn-border btn-google-login" href="#">
+                <a class="btn btn-border btn-google-login" href="{{route('user.login.google')}}">
                     <img src="{{ asset('images/ic_google.svg') }}" class="icon" alt=""> Masuk dengan Google
                 </a>
             </p>
