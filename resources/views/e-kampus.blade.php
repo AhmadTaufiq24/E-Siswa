@@ -48,7 +48,7 @@
         <div class="row text-center pb-70">
             <div class="col-lg-12 col-12 header-wrap">
                 <h2 class="primary-header">
-                    Kampus Rekomendasi Kami
+                    Kampus Rekomendasi Kami 
                 </h2>
             </div>
         </div>
