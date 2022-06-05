@@ -23,6 +23,8 @@
 
     @yield('content')
 
+    @include('components.footer')
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -32,7 +34,7 @@
         console.log("btw langsung aja subscribe kelasnya di https://buildwithangga.com/kelas/mastering-laravel-8-for-beginners-intermediate-bangun-website-bootcamp");
         console.log("%cMastering Laravel 8 for Beginners & Intermediate: Bangun Website Bootcamp", 'color:purple; font-weight:bold');
         console.log("%cSee you there!", 'color:red; font-weight:bold');
-    </script>
+    </script>  
     @stack('js')
 </body>
 
