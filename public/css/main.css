@@ -101,7 +101,7 @@ body {
 
 .testimonials {
   background: #F7F7FB;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 70px 0 70px 0;
 }
 
@@ -109,6 +109,12 @@ body {
   border-radius: 13px;
   background: #fff;
   padding: 20px;
+  max-height: 1000px;
+}
+
+.testimonials .item-review .background {
+  width: 268px;
+  border-radius: 10px;
 }
 
 .testimonials .item-review .message, .testimonials .item-review .user .info .role {
@@ -116,12 +122,12 @@ body {
   font-weight: 400;
   color: #5B5575;
   line-height: 30px;
-  min-height: 90px;
+  min-height: 90px; 
   margin-top: 30px;
 }
 
 .testimonials .item-review .user {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .testimonials .item-review .user .photo {
@@ -147,6 +153,543 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+/* Kampus Rekomendasi */
+.kampusrekomendasi {
+  /* background: #F7F7FB; */
+  margin-top: 0px;
+}
+
+.kampusrekomendasi .tanpagaris{  /* background: #F7F7FB; */
+  text-decoration: none;
+}
+
+.kampusrekomendasi .item {
+  border-radius: 13px;
+  background: #fff;
+  padding: 20px;
+  max-height: 1000px;
+  box-shadow: rgb(26 52 79 / 10%) 0px 2px 12px 0px;
+  transition: box-shadow 0.25s;
+}
+.kampusrekomendasi .item .dark {
+  width: 268px;
+  border-radius: 10px;
+  background: rgba(50, 7, 104, 0.6);
+}
+.kampusrekomendasi .item:hover {
+  box-shadow: rgb(26 52 79 / 40%) 0px 2px 12px 0px;
+}
+
+.kampusrekomendasi .item .background {
+  width: 268px;
+  border-radius: 10px;
+  background: rgba(50, 7, 104, 0.6);
+}
+
+.kampusrekomendasi .item .message, .kampusrekomendasi .item .user .info .role {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5B5575;
+  line-height: 30px;
+  min-height: 90px; 
+  margin-top: 30px;
+}
+
+.kampusrekomendasi .item .user {
+  margin-top: 25px;
+}
+
+.kampusrekomendasi .item .user .photo {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 16px;
+}
+
+.kampusrekomendasi .item .user .info {
+  padding-top: 5px;
+}
+
+.kampusrekomendasi .item .user .info .country {
+  color: #211B3D;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.kampusrekomendasi .item .user .info .name {
+  color: #211B3D;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.kampusrekomendasi .item .user .info .role {
+  min-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Jurusan Rekomndasi */
+.jurusanrekomendasi {
+  /* background: #F7F7FB; */
+  margin-top: 0px;
+}
+
+.jurusanrekomendasi .item {
+  box-shadow: rgb(26 52 79 / 10%) 0px 2px 12px 0px;
+  border-radius: 13px;
+  background: #fff;
+  padding: 20px;
+  max-height: 1000px;
+  transition: box-shadow 0.25s;
+}
+.jurusanrekomendasi .item:hover {
+  box-shadow: rgb(26 52 79 / 40%) 0px 2px 12px 0px;
+}
+
+.jurusanrekomendasi .item .background {
+  width: 268px;
+  border-radius: 10px;
+}
+
+.jurusanrekomendasi .item .message, .jurusanrekomendasi .item .user .info .role {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5B5575;
+  line-height: 30px;
+  min-height: 90px; 
+  margin-top: 30px;
+}
+
+.jurusanrekomendasi .item .user {
+  margin-top: 25px;
+}
+
+.jurusanrekomendasi .item .user .photo {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 16px;
+}
+
+.jurusanrekomendasi .item .user .info {
+  padding-top: 5px;
+}
+
+.jurusanrekomendasi .item .user .info .country {
+  color: #211B3D;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.jurusanrekomendasi .item .user .info .name {
+  color: #211B3D;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.jurusanrekomendasi .item .user .info .role {
+  min-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.isijurusan .item2 {
+  border-radius: 13px;
+  background: #fff;
+  padding: 20px;
+  margin-right: 30px;
+  max-height: 1000px;
+  width: 300px;
+  box-shadow: rgb(26 52 79 / 10%) 0px 2px 12px 0px;
+  transition: box-shadow 0.25s;
+}
+
+.isijurusan .item2 .dark {
+  width: 268px;
+  border-radius: 10px;
+  background: rgba(50, 7, 104, 0.6);
+}
+.isijurusan .item2:hover {
+  box-shadow: rgb(26 52 79 / 40%) 0px 2px 12px 0px;
+}
+
+.isijurusan .item2 .background {
+  width: 268px;
+  border-radius: 10px;
+  background: rgba(50, 7, 104, 0.6);
+}
+
+.isijurusan .item2 .message, .isijurusan .item2 .user .info .role {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5B5575;
+  line-height: 30px;
+  min-height: 90px; 
+  margin-top: 30px;
+}
+
+.isijurusan .item2 .user {
+  margin-top: 25px;
+}
+
+.isijurusan .item2 .user .photo {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 16px;
+}
+
+.isijurusan .item2 .user .info {
+  padding-top: 5px;
+}
+
+.isijurusan .item2 .user .info .country {
+  color: #211B3D;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.isijurusan .item2 .user .info .name {
+  color: #211B3D;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.isijurusan .item2 .user .info .role {
+  min-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/* Kota Rekomendasi */
+.kotarekomendasi {
+  /* background: #F7F7FB; */
+  margin-bottom: 30px;
+}
+
+.kotarekomendasi .item {
+  position: relative;
+}
+
+.kotarekomendasi .item .background {
+  display: block;
+  width: 100%;
+  height: 10cm;
+  border-radius: 10px;
+  box-shadow: rgb(26 52 79 / 10%) 0px 2px 12px 0px;
+}
+
+.kotarekomendasi .item .message, .kotarekomendasi .item .user .info .role {
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 30px;
+  min-height: 90px; 
+  margin-top: 10px;
+}
+
+.kotarekomendasi .item .user {
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 7, 104, 0.6);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.kotarekomendasi .item .user:hover {
+  opacity: 1;
+}
+
+.kotarekomendasi .item .user .photo {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-right: 16px;
+}
+
+.kotarekomendasi .item .user .info {
+  padding-top: 150px;
+}
+.kotarekomendasi .item .user2 {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 7, 104, 0.2);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px;
+  transition: opacity 0.25s;
+}
+.kotarekomendasi .item .user2:hover {
+  opacity: 0;
+}
+
+.kotarekomendasi .item .user2 .info2 {
+  padding-top: 280px;
+}
+
+.kotarekomendasi .item .user .info .name {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.kotarekomendasi .item .user .info .role {
+  min-height: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Deskripsi Kampus */
+.deskripsikampus {
+  padding: 0;
+}
+.deskripsikampus .copywritting {
+  padding: 100px 40px 100px;
+}
+.deskripsikampus .copywritting .logodeskripsi {
+  width: 130px;
+}
+.deskripsikampus .copywritting .namakampus {
+  font-weight: 400;
+  margin-top: 15px;
+}
+.deskripsikampus .text-center .cover {
+  height: 550px;
+}
+.deskripsikampus .container-fluid {
+  background: #f3f3ff;
+}
+
+.deskripsijurusan {
+  padding: 0;
+}
+.deskripsijurusan .copywritting {
+  padding: 100px 40px 100px;
+}
+.deskripsijurusan .copywritting .logodeskripsi {
+  width: 80px;
+}
+.deskripsijurusan .copywritting .namakampus {
+  font-weight: 400;
+  margin-top: 15px;
+}
+.deskripsijurusan .text-center .cover {
+  height: 550px;
+}
+.deskripsijurusan .container-fluid {
+  background: #f3f3ff;
+}
+
+
+.isikampus {
+  background: #ffffff;
+}
+
+.isikampus .primary-header {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.isikampus hr {
+  width: 100%;
+  height: 1px;
+  background: #685974;
+}
+.isikampus .user .name {
+  color: #6c6c6c;
+}
+.carousel-inner {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.isikampus .paragraph {
+  line-height: 2em;
+  color: #6c6c6c;
+}
+
+.isijurusan {
+  background: #ffffff;
+}
+
+.isijurusan .primary-header {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+.isijurusan hr {
+  width: 100%;
+  height: 1px;
+  background: #685974;
+}
+.isijurusan .user .name {
+  color: #6c6c6c;
+}
+.carousel-inner {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.isijurusan .paragraph {
+  line-height: 2em;
+  color: #6c6c6c;
+  margin-left: 250px;
+}
+
+/* Tabel Pendaftaran */
+.tabelpendaftaran {
+  justify-content: center;
+}
+.tabelpendaftaran .primary-header {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.tabelpendaftaran .tabel .kiriatas {
+  border-radius: 10px 0px 0px 0px; 
+}
+.tabelpendaftaran .pernyataan {
+  padding: 0px 160px 0px 160px;
+  text-align: left;
+  color: #6c6c6c;
+  line-height: 2em;
+}
+
+.tabelpendaftaran .tabel {
+  border-radius: 10px;
+  margin-left: 160px;
+}
+
+.tabelpendaftaran .tabel .kiribawah {
+  border-radius: 0px 0px 0px 10px; 
+}
+
+.tabelpendaftaran .tabel .kananatas {
+  border-radius: 0px 10px 0px 0px; 
+}
+
+.tabelpendaftaran .tabel .kananbawah {
+  border-radius: 0px 0px 10px 0px; 
+}
+.tabelpendaftaran .tabel .marginatas {
+  padding: 20px;
+}
+.tabelpendaftaran .tabel .jaraktabel {
+  padding: 20px;
+  width: 320px;
+}
+
+.tabelpendaftaran .tabel .abu-abu {
+  background: #f0f0f0;
+  color: #222222;
+  font-weight: 10px;
+}
+.tabelpendaftaran .tabel .putih {
+  background: #ffffff;
+}
+.tabelpendaftaran .tabel .white {
+  color: #222222;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+table, th, td {
+  border: 1px solid rgb(227, 227, 227);
+}
+th, td {
+  padding: 20px;
+}
+th {
+  background-color: #6f30ec;
+  color: white;
+}
+
+.lokasikampus {
+  background: #fffefe;
+  padding: 70px 0 70px 0;
+}
+.lokasikampus .text-center .cover {
+  height: 550px;
+}
+.lokasikampus .copywritting {
+  padding: 20px 20px 100px 30px;
+}
+.lokasikampus iframe {
+  width: 1035px;
+  height: 620px;
+}
+.lokasikampus .lokasibg {
+  background: #f3f3ff;
+  height: 620px;
+}
+.lokasikampus p {
+  line-height: 25px;
+}
+.lokasikampus h6 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.fasilitas {
+  background: #6f30ec;
+  padding: 70px 0 70px 0;
+}
+.fasilitas .primary-header {
+  color: #fff;
+}
+
+.fasilitas .isifasilitas {
+  padding: 11px 36px 11px 36px;
+  border-radius: 100px;
+  border: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height:50px;
+  color: #fff;
+}
+.pengetahuan {
+  background: #F7F7FB;
+  margin-top: 50px;
+  padding: 70px 0 70px 0;
+}
+
+.pengetahuan .primary-header {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: -380px;
+}
+.pengetahuan .isifasilitas {
+  padding: 0px 36px 11px 30px;
+  border-radius: 100px;
+  border: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: rgb(31, 31, 31);
+}
+
 
 .pricing {
   margin-top: 100px;
@@ -251,7 +794,7 @@ body {
 
 .story {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   color: #31B380;
 }
 
@@ -260,6 +803,24 @@ body {
   font-size: 30px;
   color: #211B3D;
 }
+.lihatsemua {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.lihatsemua a {
+  font-weight: 600;
+  color: #732efc;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease-out;
+}
+.lihatsemua a:hover {
+  color: #ad85ff;
+}
+
+
 
 .benefits {
   margin-bottom: 100px;
@@ -285,7 +846,7 @@ body {
 }
 
 .pb-70 {
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 
 .header-wrap .primary-header {
@@ -347,10 +908,66 @@ body {
   border: 1px solid #fff;
 }
 
-.basic-form input {
-  border: 1px solid #E7E5F4;
+.basic-form {
+  margin-top: 35px;
+  background: transparent;
+  border: 2px solid #E7E5F4; 
   border-radius: 50px;
-  padding: 12px 20px 12px 20px;
+}
+.search-box {
+  top: 50%;
+  left: 50%;
+  background: #ffffff;
+  height: 55px;
+  border: 1px solid #5b5b5b;
+  border-radius: 50px;
+  padding: 10px;
+}
+.search-btn {
+  color: #ffffff;
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #732efc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -8px -8px;
+  transition: background 0.25s;
+}
+.search-btn:hover {
+  background: #31B380;
+}
+.search-btn img {
+  width: 25px;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  color: rgb(122, 122, 122);
+  font-size: 16px;
+  font-weight: 100;
+  width: 500px;
+  margin: 4px 0px 0px 20px;
+}
+.basic-form input {
+  background: transparent;
+  border-radius: 50px;
+}
+
+.basic-form button img {
+  width: 28px;
+}
+
+.basic-form button {
+  border: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #7839F3;
 }
 
 .checkout {
@@ -397,9 +1014,10 @@ body {
 }
 
 .navbar .user-logged .user-photo {
-  width: 56px;
-  height: 56px;
+  width: 50px;
+  height: 50px;
   margin-left: 10px;
+  border-radius: 50%;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -421,6 +1039,9 @@ body {
 /* Footer */
 
 footer {
+  box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
+  -webkit-box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
+  -moz-box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
   position: relative;
   width: 100%;
   height: auto;
